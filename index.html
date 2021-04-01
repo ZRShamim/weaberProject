@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== Splide css ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Responsive Portfolio website</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">ZRbhai</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Ziaur Rahman</h1>
+                        <h2 class="home__subtitle">junior Web<br>Developer.</h2>
+                        <a href="#" class="button">Hire Us</a>
+                    </div>
+    
+                    <img src="img/zr1.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">We build the best <br> responsive website</h2>
+                        <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, magni earum, quod tempore consequatur ullam aut itaque a nobis esse quae totam! Inventore doloremque ipsum reprehenderit, fugiat distinctio tenetur quod!</p>
+                        <a href="#" class="button">Explore history</a>
+                    </div>
+
+                    <img src="img/concept-construction.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Offering</span>
+                <h2 class="section-title">Our amazing services</h2>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path d="M5.82429 57.9374L0 12.3826H64L58.1693 57.9302L31.9607 62.997L5.82429 57.9374Z" fill="#E44D26"/>
+                                <path d="M32 59.1242L53.1776 55.0298L58.1606 16.1075H32V59.1242Z" fill="#F16529"/>
+                                <path d="M32 33.0031H21.3981L20.6657 27.2819H32V21.6947H11.9092L12.1012 23.1936L14.0704 38.5901H32V33.0031ZM32 47.5133L31.9648 47.52L23.0417 45.8397L22.4713 41.3839H14.4285L15.5511 50.1565L31.9633 53.3336L32 53.3264V47.5133Z" fill="#EBEBEB"/>
+                                <path d="M5.95461 0.00363159H10.0262V2.80878H13.7507V0.00363159H17.8224V8.49839H13.7507V5.65389H10.0262V8.49839H5.9549L5.95461 0.00363159ZM23.177 2.82075H19.5927V0.00363159H30.8353V2.82075H27.2493V8.49839H23.1772V2.82075H23.177ZM32.6193 0.00363159H36.8652L39.4768 2.98851L42.086 0.00363159H46.3332V8.49839H42.2777V4.28783L39.4764 7.30821H39.4064L36.6032 4.28783V8.49839H32.6192V0.00363159H32.6193ZM48.3593 0.00363159H52.432V5.69061H58.1582V8.49839H48.3593V0.00363159Z" fill="black"/>
+                                <path d="M31.9724 33.0031V38.5901H41.8385L40.9084 45.8362L31.9724 47.518V53.3306L48.3977 50.1565L48.5178 49.2122L50.4009 34.5035L50.5964 33.0031H48.4375H31.9724ZM31.9724 21.6947V27.2819H51.3255L51.486 26.026L51.851 23.1936L52.0428 21.6947H31.9724Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="64" height="64" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <h3 class="services__title">HTML5</h3>
+                        <p class="services__description">We offer our clients excellent quality services.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path d="M48.1856 55.5477L31.9998 59.9059L15.8137 55.5477L12.0786 15.0831H51.9212L48.1856 55.5477Z" fill="#2062AF"/>
+                                <path d="M31.9996 18.3606V56.4298L32.0362 56.4398L45.1348 52.9127L48.1582 18.3606H31.9996V18.3606Z" fill="#3C9CD7"/>
+                                <path d="M22.8136 9.13798V6.72953H26.3276V4.09412H20.1782V11.5429H26.3276V9.13798H22.8136ZM32.6487 6.72953H35.1054V4.09412H28.9555V6.72953C29.7783 7.55231 30.2074 7.94611 31.3973 9.13608C30.7017 9.13608 28.9555 9.13857 28.9555 9.13845V11.5429H35.1054V9.13798L32.6487 6.72953ZM41.3652 6.72953H43.8217V4.09412H37.6716V6.72953C38.4943 7.55231 38.9237 7.94611 40.1136 9.13608C39.4182 9.13608 37.6716 9.13857 37.6716 9.13845V11.5429H43.8218V9.13798L41.3652 6.72953V6.72953Z" fill="black"/>
+                                <path d="M31.9853 28.4784L20.4005 33.3031L20.7847 38.08L31.9853 33.291L43.8998 28.197L44.3937 23.3105L31.9853 28.4784Z" fill="white"/>
+                                <path d="M20.4004 33.3031L20.7846 38.08L31.9851 33.291V28.4784L20.4004 33.3031V33.3031Z" fill="url(#paint0_linear)"/>
+                                <path d="M44.3937 23.3106L31.9852 28.4784V33.291L43.8997 28.197L44.3937 23.3106Z" fill="url(#paint1_linear)"/>
+                                <path d="M20.4182 33.3032L20.8025 38.08L37.9883 38.1348L37.6039 44.5039L31.9488 46.0959L26.5125 44.7233L26.1831 40.7701H21.1319L21.7908 48.402L32.0037 51.4217L42.1611 48.4567L43.479 33.3032H20.4182V33.3032Z" fill="url(#paint2_linear)"/>
+                                <path opacity="0.05" d="M31.9853 33.3032H20.4005L20.7847 38.08L31.9853 38.1158V33.3032ZM31.9853 46.0807L31.9304 46.0961L26.4948 44.7235L26.1654 40.7702H21.1143L21.7731 48.4021L31.9853 51.4218V46.0807Z" fill="black"/>
+                                <path d="M19.3572 23.3106H44.3937L43.8998 28.1971H19.9611L19.3572 23.3106V23.3106Z" fill="url(#paint3_linear)"/>
+                                <path opacity="0.05" d="M31.9853 23.3106H19.3572L19.9611 28.1971H31.9853V23.3106V23.3106Z" fill="black"/>
+                                </g>
+                                <defs>
+                                <linearGradient id="paint0_linear" x1="26.1928" y1="38.0801" x2="26.1928" y2="28.4785" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.387" stop-color="#D1D3D4" stop-opacity="0"/>
+                                <stop offset="1" stop-color="#D1D3D4"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear" x1="38.1893" y1="33.2912" x2="38.1893" y2="23.3107" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.387" stop-color="#D1D3D4" stop-opacity="0"/>
+                                <stop offset="1" stop-color="#D1D3D4"/>
+                                </linearGradient>
+                                <linearGradient id="paint2_linear" x1="20.4182" y1="42.3625" x2="43.4789" y2="42.3625" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#E8E7E5"/>
+                                <stop offset="1" stop-color="white"/>
+                                </linearGradient>
+                                <linearGradient id="paint3_linear" x1="19.3572" y1="25.7539" x2="44.3936" y2="25.7539" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#E8E7E5"/>
+                                <stop offset="1" stop-color="white"/>
+                                </linearGradient>
+                                <clipPath id="clip0">
+                                <rect width="64" height="64" fill="white"/>
+                                </clipPath>
+                                </defs>
+                        </svg>
+                        <h3 class="services__title">CSS3</h3>
+                        <p class="services__description">We offer our clients excellent quality services.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0H64V64H0V0Z" fill="#F0DB4F"/>
+                            <path d="M58.7619 48.7361C58.2935 45.816 56.3893 43.3643 50.7498 41.0768C48.7908 40.1764 46.6068 39.5316 45.9558 38.0472C45.7247 37.1833 45.6943 36.6966 45.8403 36.1734C46.26 34.4761 48.2859 33.9468 49.892 34.4335C50.9262 34.7802 51.9056 35.5773 52.4958 36.8487C55.2577 35.0602 55.2517 35.0723 57.1802 33.8434C56.4745 32.7484 56.0973 32.2434 55.6349 31.775C53.9741 29.9195 51.711 28.9643 48.0912 29.0373C47.4646 29.1164 46.832 29.2015 46.2053 29.2807C44.3985 29.737 42.6768 30.686 41.6669 31.9575C38.6372 35.3948 39.5011 41.4114 43.1878 43.8875C46.8197 46.613 52.1551 47.2335 52.8364 49.7826C53.4996 52.9035 50.543 53.9133 47.6045 53.5545C45.4387 53.1043 44.2342 52.0031 42.9323 50.0016C40.5354 51.3887 40.5354 51.3887 38.0715 52.8062C38.6555 54.0837 39.2699 54.6617 40.2495 55.7689C44.8852 60.4716 56.4866 60.2404 58.5673 53.1225C58.6524 52.8791 59.2122 51.2487 58.7619 48.7361V48.7361ZM34.7924 29.4145H28.8061C28.8061 34.5856 28.7818 39.7202 28.7818 44.8913C28.7818 48.1825 28.9521 51.2 28.4168 52.1247C27.5407 53.9437 25.2715 53.7186 24.2373 53.3657C23.1848 52.8486 22.6495 52.1125 22.0289 51.0723C21.8586 50.7742 21.7308 50.543 21.6882 50.5247C20.0639 51.5164 18.4456 52.514 16.8213 53.5057C17.6305 55.1666 18.8228 56.6084 20.3498 57.5452C22.6312 58.914 25.6973 59.3338 28.9035 58.5977C30.9902 57.9893 32.7908 56.7301 33.7338 54.8137C35.0965 52.3012 34.8045 49.2593 34.7924 45.8951C34.8228 40.4076 34.7924 34.9202 34.7924 29.4145Z" fill="#323330"/>
+                        </svg>
+                        <h3 class="services__title">JavaScript</h3>
+                        <p class="services__description">We offer our clients excellent quality services.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== Project ==========-->
+            <section class="project section bd-container" id="project">
+
+                <h2 class="section-title">Project We have done recently</h2>
+
+                <div class="project__container bd-grid">
+                    <div class="project__content">
+                        <img src="img/image 4.png" alt="" class="project__img">
+                        <h3 class="project__name">Powerpac Gym</h3>
+                        <span class="project__detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        <a href="#" class="button project__button"><i class='bx bxs-right-arrow-alt'></i></i></a>
+                    </div>
+
+                    <div class="project__content">
+                        <img src="img/image 5.png" alt="" class="project__img">
+                        <h3 class="project__name">Travel Guru</h3>
+                        <span class="project__detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        <a href="#" class="button project__button"><i class='bx bxs-right-arrow-alt'></i></i></a>
+                    </div>
+
+                    <div class="project__content">
+                        <img src="img/image 8.png" alt="" class="project__img">
+                        <h3 class="project__name">Hard Rock music</h3>
+                        <span class="project__detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        <a href="#" class="button project__button"><i class='bx bxs-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="user section bd-container" id="user">
+
+                <h2 class="section-title">Customer Review</h2>
+                    <div class="splide">
+                        <div class="splide__track">
+                            <ul class="splide__list ">
+                                <li class="splide__slide">
+                                    <div class="user__content">
+                                        <img src="img/user1.png" alt="" class="user__img">
+                                        <h3 class="user__name">Sameer Ahmed</h3>
+                                        <span class="user__comment">Great work done by them. Timely they finished there work.</span>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="user__content">
+                                        <img src="img/user2.png" alt="" class="user__img">
+                                        <h3 class="user__name">Elena Joseph</h3>
+                                        <span class="user__comment">It was a great pleasure for me to work with them.</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </section>
+
+            <!--========== CONTACT ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's talk</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">If you want to work with us, contact us and We will attend you quickly.</p>
+                    </div>
+
+                    <div class="contact__button">
+                        <a href="#" class="button">Contact us now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">ZRBhai</a>
+                    <span class="footer__description">Web Developer</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Ongoing Project</a></li>
+                        <li><a href="#" class="footer__link">Technical Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Event</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>Lima - Peru</li>
+                        <li>Jr Union #999</li>
+                        <li>999 - 888 - 777</li>
+                        <li>zrbhai@email.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2021 ZRBhai. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== Splide ==========-->
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+        <script>
+            new Splide( '.splide', {
+                type   : 'loop',
+                padding: {
+                right: '5rem',
+                left : '5rem',
+            },
+            } ).mount();
+        </script>
+        <!--========== MAIN JS ==========-->
+        <script src="main.js"></script>
+    </body>
+</html>
+    
