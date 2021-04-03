@@ -105,3 +105,20 @@ sr.reveal(`.home__data, .home__img,
             {
             interval: 200
 })
+
+/*==================== Slide for customer review ====================*/
+new Splide( '.splide', {
+    type   : 'loop',
+    padding: {
+    right: '5rem',
+    left : '5rem',
+},
+} ).mount();
+
+/*==================== Modal for pricing ====================*/
+$('.modal-open').click(function(event) {
+    $(this).modal({
+        fadeDuration: 250,
+    });
+    return false;
+});

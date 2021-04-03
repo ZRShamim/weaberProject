@@ -9,6 +9,9 @@
 
         <!--========== Splide css ==========-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+        
+        <!--========== Modal css ==========-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="styles.css">
@@ -53,7 +56,7 @@
                     <div class="home__data">
                         <h1 class="home__title">Ziaur Rahman</h1>
                         <h2 class="home__subtitle">junior Web<br>Developer.</h2>
-                        <a href="#" class="button">Hire Us</a>
+                        <a href="#ex1" class="modal-open button" rel="modal:open">Hire Us</a>
                     </div>
     
                     <img src="img/zr1.png" alt="" class="home__img">
@@ -219,6 +222,11 @@
                 </div>
             </section>
         </main>
+        
+        <!-- Modal for price card -->
+        <div id="ex1" class="modal">
+            
+        </div>
 
         <!--========== FOOTER ==========-->
         <footer class="footer section bd-container">
@@ -236,7 +244,7 @@
                 <div class="footer__content">
                     <h3 class="footer__title">Services</h3>
                     <ul>
-                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#ex1" class="modal-open footer__link" rel="modal:open">Pricing</a></li>
                         <li><a href="#" class="footer__link">Ongoing Project</a></li>
                         <li><a href="#" class="footer__link">Technical Support</a></li>
                     </ul>
@@ -266,21 +274,19 @@
             <p class="footer__copy">&#169; 2021 ZRBhai. All right reserved</p>
         </footer>
 
+
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
         <!--========== SCROLL REVEAL ==========-->
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--========== Splide ==========-->
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 
-        <script>
-            new Splide( '.splide', {
-                type   : 'loop',
-                padding: {
-                right: '5rem',
-                left : '5rem',
-            },
-            } ).mount();
-        </script>
+        <!-- jQuery Modal -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
         <!--========== MAIN JS ==========-->
         <script src="main.js"></script>
     </body>
