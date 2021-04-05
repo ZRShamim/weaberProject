@@ -115,7 +115,7 @@ new Splide( '.splide', {
 },
 } ).mount();
 
-/*==================== Modal for pricing ====================*/
+/*==================== Modal for pricing banner(Not Done Yet) ====================*/
 $('.modal-open').click(function(event) {
     $(this).modal({
         fadeDuration: 250,
