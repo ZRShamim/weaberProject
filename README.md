@@ -1,5 +1,6 @@
 # weaberProject
 Live server
 https://zrshamim.github.io/weaberProject/
-Netlify Live Link
+
+Netlify Live
 https://zrsportfolio.netlify.app/
