@@ -110,8 +110,8 @@ sr.reveal(`.home__data, .home__img,
 new Splide( '.splide', {
     type   : 'loop',
     padding: {
-    right: '5rem',
-    left : '5rem',
+    right: '1rem',
+    left : '1rem',
 },
 } ).mount();
 
